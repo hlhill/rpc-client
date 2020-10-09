@@ -1,0 +1,25 @@
+{
+    "name": "easyswoole/rpc-client",
+    "description": "new rpc-client for easyswoole",
+    "type": "library",
+    "require": {
+		"php": ">=7.2",
+		"ext-swoole": ">=4.4.17"
+    },
+    "require-dev": {
+		"swoole/ide-helper": "^4.4"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Haoxu",
+            "email": "554802208@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\RpcClient\\": "src/"
+        }
+    }
+}
